@@ -18,5 +18,26 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 0;
+}
+main {
+    max-width: 800px;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1x solid rgba(0, 0, 0, .02);
+    padding: 1rem;
+    background-color:#dbdada;
+    color: #272727;
+    text-align: center;
+}
+main img {
+    width: 150px;
+    height: auto;
+}
+footer {
+    margin-top: 15px;
+    border: 1px solid #000;
+    text-align: center;
 }
