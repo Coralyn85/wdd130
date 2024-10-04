@@ -36,8 +36,8 @@ main img {
     width: 150px;
     height: auto;
 }
-footer {
+footer { 
     margin-top: 15px;
     border: 1px solid #000;
     text-align: center;
-}
+ } 
