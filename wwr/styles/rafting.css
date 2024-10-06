@@ -1,13 +1,20 @@
 :root{
-    color: #028090, #337F5e, #912F40, #BF7D26, #564848;
-    font-family: "Poppins" "Playwrite Deutchland Grundschrift";
-    font-weight: 400;   
+    color: #028090;
+    color: #337F5e;
+    color: #912F40;
+    color: #BF7D26;
+    color: #564848;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Playwrite DE Grund", system-ui;
+    font-weight:400;
+    font-style: normal; 
 }
 h1 {
     position: absolute;
     font-family: "Playwrite DE Grund", system-ui;
-    font-optical-sizing: auto;
-    font-weight:300;
+    font-weight:400;
     font-style: normal;
     background-color: #564848;
     font-display: #912F40;
@@ -21,6 +28,7 @@ h2 {
 }
 footer {
     text-decoration: none;
+    font-size:
 }
 div {
     width: 1000px;
@@ -36,6 +44,6 @@ article {
     background-color: antiquewhite;
     font-display: black;
 }
-footer nav {
+nav {
     font-size: x-small;
 }
