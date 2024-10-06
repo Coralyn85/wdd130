@@ -17,7 +17,7 @@ h1 {
     font-weight:400;
     font-style: normal;
     background-color: #564848;
-    font-display: #912F40;
+    font: #912F40;
 }
 h2 {
     font-family: "Poppins", system-ui;
@@ -30,7 +30,8 @@ footer {
     text-decoration: none;
     font-size:
 }
-div {
+.hero div {
+    position: relative;
     width: 1000px;
 }
 .hero img {
@@ -40,10 +41,7 @@ div {
 }
 article {
     position: absolute;
-    image-orientation: right;
+    image-rendering: right;
     background-color: antiquewhite;
-    font-display: black;
-}
-nav {
-    font-size: x-small;
+    font: black;
 }
