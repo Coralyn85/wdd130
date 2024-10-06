@@ -1,0 +1,38 @@
+:root{
+    color-scheme: #028090, #337F5e, #912F40, #BF7D26, #564848;
+    font-style: "Poppins" "Playwrite Deutchland Grundschrift";
+    font-weight: 400;   
+}
+h1 {
+    position: absolute;
+    font-style: "Playwrite Deutschland Grundschrift";
+    font-weight: 300;
+    background-color: #564848;
+    font-display: #912F40;
+}
+h2 {
+    font-style: "Poppins";
+    font-weight: 400;
+    background-color: #028090;
+    font-display:#bf7d26;
+}
+footer {
+    text-decoration: none;
+}
+div {
+    width: 1000px;
+}
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+article {
+    position: absolute;
+    image-orientation: right;
+    background-color: antiquewhite;
+    font-display: black;
+}
+footer nav {
+    font-size: x-small;
+}
