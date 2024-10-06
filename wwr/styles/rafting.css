@@ -42,7 +42,8 @@ footer {
 }
 article {
     position: absolute;
-    image-rendering: right;
     background-color: antiquewhite;
     color: black;
 }
+
+    
