@@ -19,8 +19,12 @@ h1 {
     background-color: #564848;
     color: #912F40;
 }
+
+.article img {
+    float: right;
+}
 h2 {
-    position: absolute;
+    position:absolute;
     font-family: "Poppins", system-ui;
     font-weight: 400;
     font-style: normal;
