@@ -12,26 +12,27 @@
     font-style: normal; 
 }
 h1 {
-    position: absolute;
+    position:relative;
     font-family: "Playwrite DE Grund", system-ui;
     font-weight:400;
     font-style: normal;
     background-color: #564848;
-    font: #912F40;
+    color: #912F40;
 }
 h2 {
+    position: absolute;
     font-family: "Poppins", system-ui;
     font-weight: 400;
     font-style: normal;
     background-color: #028090;
-    font-display:#bf7d26;
+    color:#bf7d26;
 }
 footer {
     text-decoration: none;
-    font-size:
+    font-size:medium
 }
 .hero div {
-    position: relative;
+    position: absolute;
     width: 1000px;
 }
 .hero img {
@@ -43,5 +44,5 @@ article {
     position: absolute;
     image-rendering: right;
     background-color: antiquewhite;
-    font: black;
+    color: black;
 }
