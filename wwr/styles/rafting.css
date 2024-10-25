@@ -1,42 +1,55 @@
 :root{
-    color: #028090;
-    color: #337F5e;
-    color: #912F40;
-    color: #BF7D26;
-    color: #564848;
-    font-family: "Poppins", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Playwrite DE Grund", system-ui;
-    font-weight:400;
-    font-style: normal; 
+    --heading-background-color: #028090;
+    --secondary-color: #337F5e;
+    --accent-color: #912F40;
+    --heading-text-color: #BF7D26;
+    --seconday-accent-color: #564848;
+    --main-font-family: "Poppins", sans-serif;
+    --font-weight: 400;
+    --font-style: normal;
+    --font-family: "Playwrite DE Grund", sans-serif;
+    --font-weight:400;
+    --font-style: normal; 
+
+header{
+    text-decoration: none;
+}
+nav {
+    display: flex;
+
 }
 h1 {
-    position:relative;
-    font-family: "Playwrite DE Grund", system-ui;
-    font-weight:400;
-    font-style: normal;
-    background-color: #564848;
-    color: #912F40;
-}
+    position:absolute;
+    top:auto;
+    left:auto;
+    color: var(--heading-text-color);
+    font-family: var(--main-font-family);
 
+
+}
+p {
+    background-color: var(--secondary-color);
+    color: black;
+    font-family:var(--font-family);
+    font-weight: bold 
+
+}
 .article img {
+    position:absolute;
     float: right;
 }
 h2 {
-    position:absolute;
-    font-family: "Poppins", system-ui;
+    font-family: var(--heading-background-color);
     font-weight: 400;
     font-style: normal;
-    background-color: #028090;
-    color:#bf7d26;
+    color:var(--heading-text-color)
 }
 footer {
     text-decoration: none;
     font-size:medium
 }
 .hero div {
-    position: absolute;
+    position:relative;
     width: 1000px;
 }
 .hero img {
@@ -45,9 +58,10 @@ footer {
     height: auto;
 }
 article {
-    position: absolute;
     background-color: antiquewhite;
     color: black;
 }
+.sociallinks img {
+    height: 35px;
 
-    
+}
