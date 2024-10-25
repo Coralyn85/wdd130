@@ -40,7 +40,7 @@ p {
     float: right;
 }
 h2 {
-    font-family: var(--heading-background-color);
+    font-family: var(--main-font-family);
     font-weight: 400;
     font-style: normal;
     color:var(--heading-text-color)
