@@ -50,10 +50,11 @@ footer {
     font-size:medium
 }
 .hero div {
-    position:relative;
+    position:absolute;
     width: 1000px;
 }
 .hero img {
+    float:right;
     display:block;
     width: 100%;
     height: auto;
