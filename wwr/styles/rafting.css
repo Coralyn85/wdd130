@@ -12,12 +12,29 @@
     --font-style: normal; 
 }
 
-header{
-    text-decoration: none;
+header {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items:center;
+    font-weight:500;
+    font-size:xx-large;
 }
-nav {
-    display: flex;
 
+.logo img {
+    margin:auto;
+    width: 1000px; 
+}
+
+nav {
+    margin: 1rem auto;
+    max-width: 1000px;
+    display:flex;
+    list-style: none;
+}
+
+.nav a{
+    display: flex;
+    justify-content: space-around;
 }
 h1 {
     position:absolute;
