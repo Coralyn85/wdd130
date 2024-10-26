@@ -44,7 +44,7 @@ h1 {
     position: absolute;
     top:auto;
     left:auto;
-    color: var(--heading-text-color);
+    color: white;
     font-family: var(--main-font-family);
 
 }
@@ -72,7 +72,7 @@ h2 {
     font-family: var(--main-font-family);
     font-weight: 400;
     font-style: normal;
-    color:var(--heading-text-color)
+    color:black
 }
 footer {
     display:grid;
