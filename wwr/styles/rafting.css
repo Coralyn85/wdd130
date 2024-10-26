@@ -49,7 +49,6 @@ h1 {
 
 }
 p {
-    background-color: var(--secondary-color);
     color: black;
     font-family:var(--font-family);
     font-weight: bold; 
@@ -57,17 +56,13 @@ p {
 
 }
 
-section:nth-of-type(1) {
+section{
     display:flex;
-
-    
 }
 
 section:nth-of-type(2) {
-    width: 4px;
-    height:auto;
-    display:grid;
-    grid-gap: 60px;
+    display:flex;
+    justify-content: flex-start;
 }
 .article img {
     position:absolute;
@@ -80,6 +75,8 @@ h2 {
     color:var(--heading-text-color)
 }
 footer {
+    display:grid;
+    grid-template-columns: 5fr 1fr;
     text-decoration: none;
 
 }
@@ -100,4 +97,5 @@ article {
 
 .sociallinks img {
     height: 35px;
+
 }
