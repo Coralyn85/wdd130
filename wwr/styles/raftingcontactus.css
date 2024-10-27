@@ -56,11 +56,6 @@ form {
     margin-top: 65px; 
     grid-gap: 10px
 }
-input:nth-last-of-type(3){
-    width: 500px;
-    height: 400px;
-    
-}
 p {
     color: black;
     font-family:var(--font-family);
