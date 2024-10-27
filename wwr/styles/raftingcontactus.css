@@ -44,8 +44,12 @@ h1 {
     position: absolute;
     top:auto;
     left:auto;
-    color:green;
+    color:black;
     font-family: var(--main-font-family);
+
+}
+
+h2{
 
 }
 form {
@@ -68,11 +72,9 @@ p {
 
 }
 
-section{
-    display:flex;
-}
+section
 
-section:nth-of-type(2) {
+section:nth-of-type(3) {
     display:flex;
     justify-content: flex-start;
 }
