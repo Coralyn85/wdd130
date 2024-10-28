@@ -69,12 +69,16 @@ p {
 }
 
 section{
+    width: 1000px;
     display:flex;
+    flex-wrap: wrap;
+
 }
 
 section:nth-of-type(2) {
     display:flex;
     justify-content: flex-start;
+    width: 1000px;
 }
 .article img {
     position:absolute;
@@ -88,6 +92,7 @@ h2 {
 }
 footer {
     display:grid;
+    width: 1000px;
     grid-template-columns: 5fr 1fr;
     text-decoration: none;
 
